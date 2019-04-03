@@ -15,7 +15,7 @@ class SiteYears extends Widget
 			$this->startYear = date('Y');
 		}
 		$years = date('Y');
-		if ($years !== $this->startYear) {
+		if ($years !== (string)$this->startYear) {
 			$years = $this->startYear . $this->delimiter . $years;
 		}
 		return $years;

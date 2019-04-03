@@ -25,4 +25,30 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-todo
+Call widget
+
+```php
+<?php
+echo \andrewdanilov\SiteYears\SiteYears::widget([
+	'startYear' => 2018, // optional, default is current year
+	'delimiter' => '-', // optional, default is ' - '
+]);
+```
+
+Result
+```
+2018-2019
+```
+
+If current year is equal to start year:
+```php
+<?php
+echo \andrewdanilov\SiteYears\SiteYears::widget([
+	'startYear' => 2019,
+]);
+```
+
+Result would be just:
+```
+2019
+```
