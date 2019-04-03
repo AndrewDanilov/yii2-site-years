@@ -1,0 +1,22 @@
+{
+    "name": "andrewdanilov/yii2-site-years",
+    "description": "Site years",
+    "type": "library",
+    "keywords": ["php","site","years","existence"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AndrewDanilov",
+            "email": "andrewdanilov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "andrewdanilov\\SiteYears\\": "src/"
+        }
+    }
+}
