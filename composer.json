@@ -1,8 +1,8 @@
 {
     "name": "andrewdanilov/yii2-site-years",
     "description": "Site years",
-    "type": "library",
-    "keywords": ["php","site","years","existence"],
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","site","years","existence"],
     "license": "MIT",
     "authors": [
         {
