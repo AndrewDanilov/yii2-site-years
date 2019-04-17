@@ -31,13 +31,13 @@ Call widget
 <?php
 echo \andrewdanilov\SiteYears\SiteYears::widget([
 	'startYear' => 2018, // optional, default is current year
-	'delimiter' => '-', // optional, default is ' - '
+	'delimiter' => ' - ', // optional, default is '-'
 ]);
 ```
 
 Result
 ```
-2018-2019
+2018 - 2019
 ```
 
 If current year is equal to start year:

@@ -7,7 +7,7 @@ use yii\base\Widget;
 class SiteYears extends Widget
 {
 	public $startYear;
-	public $delimiter = ' - ';
+	public $delimiter = '-';
 
 	public function run()
 	{
